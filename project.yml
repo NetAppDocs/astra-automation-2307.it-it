@@ -38,6 +38,7 @@ sidebar:
   - section: workflows_infra
   - section: workflows
   - section: python
+  - section: reference
   - section: information
   - title: Note legali
     url: "/legal-notices.html"
