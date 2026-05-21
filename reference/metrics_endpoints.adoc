@@ -1,0 +1,12 @@
+---
+sidebar: sidebar 
+api: true 
+explorer: false 
+permalink: reference/metrics_endpoints.html 
+summary: 'Endpoint delle metriche dell"API Astra (ACS)' 
+---
+= Endpoint delle metriche dell'API Astra (ACS)
+:allow-uri-read: 
+
+
+L'API Metrics rappresenta metriche associate a un determinato account.

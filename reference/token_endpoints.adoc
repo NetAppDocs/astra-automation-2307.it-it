@@ -1,0 +1,12 @@
+---
+sidebar: sidebar 
+api: true 
+explorer: false 
+permalink: reference/token_endpoints.html 
+summary: 'Endpoint dei token API di Astra (ACS)' 
+---
+= Endpoint dei token API di Astra (ACS)
+:allow-uri-read: 
+
+
+L'API Token consente agli utenti di creare e gestire i token di accesso API.

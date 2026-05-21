@@ -1,0 +1,12 @@
+---
+sidebar: sidebar 
+api: true 
+explorer: false 
+permalink: reference/cluster_node_endpoints.html 
+summary: 'Endpoint dei nodi del cluster API Astra (ACS)' 
+---
+= Endpoint dei nodi del cluster API Astra (ACS)
+:allow-uri-read: 
+
+
+L'API Cluster Node fornisce l'accesso ai nodi associati a un cluster.
