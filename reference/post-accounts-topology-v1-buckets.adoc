@@ -7,6 +7,7 @@ summary: Crea un nuovo bucket
 ---
 = Crea un nuovo bucket
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/topology/v1/buckets`#
@@ -15,6 +16,7 @@ Indica i valori desiderati per la risorsa Bucket API da creare.
 
 
 
+[[parameters]]
 == Parametri
 
 [cols="5*"]
@@ -31,6 +33,7 @@ ID della risorsa account contenitore
 |===
 
 
+[[request-body]]
 == Corpo della richiesta
 
 Indica i valori desiderati per la risorsa Bucket API da creare.
@@ -121,6 +124,7 @@ Metadati specificati dal client e dal servizio associati alla risorsa. I valori 
 ====
 
 
+[[response]]
 == Risposta
 
 [source]
@@ -250,6 +254,7 @@ Metadati specificati dal client e dal servizio associati alla risorsa. I valori 
 ====
 
 
+[[response]]
 == Risposta
 
 [source]
@@ -295,6 +300,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == Risposta
 
 [source]
@@ -345,6 +351,7 @@ Elenco dei campi non validi del corpo della richiesta
 ====
 
 
+[[response]]
 == Risposta
 
 [source]
@@ -395,6 +402,7 @@ Elenco dei campi non validi del corpo della richiesta
 ====
 
 
+[[response]]
 == Risposta
 
 [source]
@@ -440,6 +448,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == Errore
 
 [source]
@@ -485,11 +494,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == Definizioni
 
 .Vedi definizioni
 [%collapsible]
 ====
+[[s3]]
 [role="api-collapsible-fifth-title"]
 s3
 
@@ -517,6 +528,7 @@ Stringa JSON contenente il nome del bucket S3. I valori definiti sono:
 
 
 |===
+[[gcp]]
 [role="api-collapsible-fifth-title"]
 gcp
 
@@ -535,6 +547,7 @@ Stringa JSON contenente il nome del bucket Google Cloud di supporto. I valori de
 
 
 |===
+[[azure]]
 [role="api-collapsible-fifth-title"]
 azure
 
@@ -562,6 +575,7 @@ Stringa JSON contenente il nome del blob Azure sottostante. I valori definiti so
 
 
 |===
+[[bucketParameters]]
 [role="api-collapsible-fifth-title"]
 bucketParameters
 
@@ -586,6 +600,7 @@ Oggetto JSON che fornisce i parametri del protocollo Google Cloud.
 Oggetto JSON che fornisce i parametri del protocollo Azure.
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 etichetta tipo_astra
 
@@ -601,6 +616,7 @@ etichetta tipo_astra
 | valore | stringa | Vero  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 aggiornamento dei metadati di tipo Astra
 
@@ -633,9 +649,11 @@ Metadati specificati dal client e dal servizio associati alla risorsa. I valori 
 | modifiedBy | stringa | Falso  a| 
 
 |===
+[[additionalDetails]]
 [role="api-collapsible-fifth-title"]
 additionalDetails
 
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -659,6 +677,7 @@ type_astra_stateDetail
 | additionalDetails | link:#additionalDetails["additionalDetails"] | Falso  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -676,6 +695,7 @@ Nome del parametro di query non valido
 Motivo per cui il parametro di query non è valido
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 

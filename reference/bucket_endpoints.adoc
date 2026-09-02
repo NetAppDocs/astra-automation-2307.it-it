@@ -7,6 +7,7 @@ summary: 'Endpoint del bucket Astra API (ACS)'
 ---
 = Endpoint del bucket Astra API (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 L'API Bucket fornisce l'accesso ai bucket utilizzati per archiviare i backup delle applicazioni in Astra.

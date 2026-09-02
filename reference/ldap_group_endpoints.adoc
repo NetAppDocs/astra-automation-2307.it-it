@@ -7,6 +7,7 @@ summary: 'Endpoint del gruppo LDAP dell"API Astra (ACS)'
 ---
 = Endpoint del gruppo LDAP dell'API Astra (ACS)
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 L'API dei gruppi LDAP fornisce accesso in sola lettura ai gruppi LDAP all'interno del LDAP server.
